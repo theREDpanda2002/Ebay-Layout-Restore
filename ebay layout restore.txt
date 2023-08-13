@@ -1,0 +1,299 @@
+@-moz-document url-prefix("https://www.ebay.com/itm/") {
+/* top page / whole page */
+
+.vi-grid {
+    width: 82%;
+}
+
+.vim.d-sme-atf {
+    display: none;
+}
+
+.vim.d-pagenavigation-atf {
+    font-size: .6rem;
+}
+
+.vim.x-evo-atf-breadcrumbs {
+    margin-top: -15px;
+    margin-bottom: 16px;
+}
+
+.vim.d-breadcrumb .d-breadcrumb__header {
+    font-size: .6rem;
+}
+
+.seo-breadcrumbs-container nav.breadcrumbs>ul {
+    position: relative;
+    max-width: 1200px;
+    font-size: .6rem;
+    height: 100%;
+    text-align: center;
+    font-family: "Market Sans",Arial,sans-serif;
+    padding-left: 1px;
+}
+
+.vi-mast {
+    margin-top: -10px;
+}
+
+/* small images */
+
+.ux-image-grid-container .ux-image-grid .ux-image-grid-item.rounded-edges {
+    border-radius: 0rem;
+}
+
+.ux-image-grid-container.filmstrip .ux-image-grid .ux-image-grid-item {
+    width: 48px;
+    height: 48px;
+}
+
+.ux-image-grid-container .ux-image-grid .ux-image-grid-item.active {
+    border: 2px solid #0654ba;
+}
+
+
+
+
+
+
+/* large image */
+
+.ux-image-carousel-container .ux-image-carousel.zoom .ux-image-carousel-item.image {
+    border: 1px;
+}
+
+.ux-image-carousel-container .ux-image-carousel .ux-image-carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.ux-image-carousel-container .ux-image-carousel .ux-image-carousel-item {
+    flex: 0 0 100%;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    height: 100%;
+    position: relative;
+    border-radius: 0rem;
+
+}
+
+.ux-image-carousel-container button.btn-carousel-nav.btn-prev {
+    left: 70px;
+}
+
+.ux-image-carousel-container button.btn-carousel-nav.btn-next {
+    right: 70px;
+}
+
+.ux-image-carousel-container .ux-image-carousel {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    position: relative;
+    height: 112%;
+    min-width: 79%;
+    max-width: 79%;
+    border-radius: 0px;
+    border: 1px solid #CFCFCF;
+}
+
+.x-photos .x-photos-min-view:not(.filmstrip-h) .ux-image-carousel-container {
+    margin-left: -5px;
+    min-width: 0;
+    margin-bottom: 0;
+    max-height: 450px;
+    padding-top: 0px;
+}
+
+.x-photos .x-photos-min-view .ux-image-carousel-container {
+    width: 70%;
+    height: 100%;
+}
+
+.x-photos .x-photos-min-view:not(.filmstrip-h) .ux-image-carousel-container {
+    margin-bottom: 75px;
+    z-index: 0;
+    position: relative;
+}
+
+.vim.d-sell-now .ux-section-module {
+    margin-right: 407px;
+    margin-bottom: 200px;
+}
+
+
+/* right text */
+/* seller info */
+.x-sellercard-atf {
+    margin-left: 600px;
+    margin-top: 120px;
+}
+
+
+
+/* item info */
+.vi-mast__col-right {
+    margin-left: -350px;
+}
+
+.vim.x-item-title {
+    width: 560px;
+    
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.vim a.fake-btn--large, .vim button.btn--large {
+    border-radius: var(--btn-border-radius,calc(48px / 2));
+    font-size: 14px;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+.vim a.fake-btn--primary.ux-call-to-action, .vim button.btn--primary.ux-call-to-action {
+    line-height: 13px;
+}
+
+.vim.x-atc-action button.ux-call-to-action:not([class*="--secondary"]), .vim.x-atc-action a.ux-call-to-action:not([class*="--secondary"]) {
+    line-height: 13px;
+}
+
+.vim.x-item-condition {
+    font-size: .875rem;
+    display: grid;
+    align-items: center;
+    gap: 0;
+    line-height: 1.429;
+    margin-top: -105px;
+    margin-bottom: 145px;
+    margin-left: 40px;
+}
+
+
+.pad-t-24 {
+    width: 560px;
+    margin-top: -140px;
+}
+
+.vim.x-item-title .x-item-title__mainTitle span {
+    font-size: 1.1rem
+}
+
+.vi-evo-row-gap {
+    margin-top: -100px;
+    margin-left: 330px;
+    width: 230px;    
+}
+
+.vim.x-wtb-signals .ux-section-module {
+    margin-top: 6px;
+    width: 560px;
+}
+
+.vim.d-quantity {
+    display: none;
+}
+
+.vim.x-volume-pricing {
+    display: none;
+}
+
+.vim.d-shipping-minview .ux-layout-section-module {
+    width: 560px;
+}
+
+.vim.x-returns-minview .ux-layout-section-module .ux-labels-values__labels.col-3 {
+    width: 11%;
+}
+
+.vim.d-payments-minview .ux-layout-section-module .ux-labels-values__labels.col-3 {
+    width: 11%;
+}
+
+.vim.d-payments-minview .ux-layout-section-module .ux-layout-section--cobranded .ux-labels-values__values-content {
+    width: 450px;
+}
+
+/* lot chooser */
+
+.x-msku {
+    width: 300px;
+    margin-top: -118px;
+}
+
+.x-msku__label {
+    margin-top: 58px;
+    margin-bottom: -48px
+}
+
+.x-msku__select-box-wrapper {
+    position: relative;
+    z-index: 1000;
+}
+
+/* other */
+
+.vi-body .center-panel-container {
+    height: 925px
+}
+
+.ux-textspans--PSEUDOLINK:not(.ux-textspans--EMPHASIS):not(.ux-textspans--NEGATIVE):not(.ux-textspans--POSITIVE):not(.ux-textspans--SECONDARY) {
+    color: #0654ba;
+}
+
+a, a:link, a:active {
+    color: #0654ba;
+}
+
+.vim.x-shop-with-confidence {
+    background-color: #fff;
+    margin-top: -755px;
+    margin-left: 590px;
+    width: 300px;
+    border: 1px solid #CFCFCF;
+    border-radius: 8px;
+    position: absolute;
+    top: 760px
+}
+
+.vim.x-shop-with-confidence .ux-section-module {
+    margin-top: -12px;
+    margin-left: 12px;
+    margin-bottom: -12px;
+}
+
+.vim.x-shop-with-confidence .ux-section-module>.section-title .section-title__title {
+    font-weight: 350;
+    font-size: 15px;
+}
+
+.vim.x-shop-with-confidence .ux-section-icon-with-details:last-child {
+    display: flex;
+}
+
+.vim.x-shop-with-confidence .ux-section-icon-with-details{
+    display: none;
+}
+
+
+.vas-addons-container-d-v3.vim {
+    display: none;
+}
+
+
+}
+
+@-moz-document url-prefix("https://www.ebay.com/") {
+/* search page tweak */
+
+.srp--list-view .srp-main--isLarge .srp-main-content.srp-main-content--flex {
+    border: 1px solid #EAEAEA;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
