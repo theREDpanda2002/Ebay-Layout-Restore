@@ -51,6 +51,9 @@
     border: 2px solid #0654ba;
 }
 
+.ux-image-grid-container .ux-image-grid .ux-image-grid-item.rounded-edges img {
+    border-radius: 0px;
+}
 
 
 
@@ -258,7 +261,8 @@ a, a:link, a:active {
     border: 1px solid #CFCFCF;
     border-radius: 8px;
     position: absolute;
-    top: 760px
+    top: 760px;
+    display: block;
 }
 
 .vim.x-shop-with-confidence .ux-section-module {
@@ -285,6 +289,9 @@ a, a:link, a:active {
     display: none;
 }
 
+.pad-b-24 {
+    display: none;
+}
 
 }
 
